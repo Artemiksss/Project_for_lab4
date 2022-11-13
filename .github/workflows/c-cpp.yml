@@ -1,12 +1,10 @@
 name: C/C++ CI
 
-on:
-  push:
-    branches: [ "main", "develop"]
+on: [push]
 
 jobs:
   my_testing:
-    runs-on: ubuntu-latest
+    runs-o: ubuntu-latest
     steps:
     - name: Print Hello Message
       run: echo "Hello World from Testing job"
