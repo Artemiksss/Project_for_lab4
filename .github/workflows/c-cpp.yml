@@ -16,7 +16,7 @@ jobs:
       run: |
         echo "Hello Massage1"
         echo "Hello Massage2"
-        echo "Appication name: ${{ env.APPLICATION_NAME }}
+        echo "Appication name: ${{ env.APPLICATION_NAME }}"
   my_deploy:
     runs-on: ubuntu-latest
     
