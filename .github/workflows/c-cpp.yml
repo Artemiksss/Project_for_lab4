@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   my_testing:
-    runs-o: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Print Hello Message
       run: echo "Hello World from Testing job"
