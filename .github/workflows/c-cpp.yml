@@ -1,18 +1,29 @@
 name: C/C++ CI
+env:
+  APPLICATION_NAME: "MyTask"
+  PACKAGE_NAME    : "Deploy-ver-${{ github.sha }}"
 
 on: [push]
 
 jobs:
   my_testing:
     runs-on: ubuntu-latest
+    
     steps:
     - name: Print Hello Message
       run: echo "Hello World from Testing job"
+    - name: Execure few commands
+      run: |
+        echo "Hello Massage1"
+        echo "Hello Massage2"
+        echo "Appication name: ${{ env.APPLICATION_NAME }}
   my_deploy:
     runs-on: ubuntu-latest
+    
     steps:
     - name: Print Hello Massage
       run: echo "Hello World from Deploy job"
-    
+    - name: Printing Deploy package
+      run: echo "Deploy package name is ${{ env.PACKAGE_NAME }}"
 
  
