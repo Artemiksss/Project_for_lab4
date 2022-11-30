@@ -10,6 +10,7 @@ int main() {
     for (int i = 0; i < num; i++){
         cin >> mas[i];
     }
+
     bool flag = true;
     for (int i = 0; i < (num - 1) / 2; i++){
         if ((mas[i] <= mas[2 * i + 1]) && (mas[i] <= mas[2 * i + 2])){
@@ -19,6 +20,7 @@ int main() {
             break;
         }
     }
+    
     if (flag){
         cout << "YES\n";
     }else{
