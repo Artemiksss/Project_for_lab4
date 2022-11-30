@@ -1,3 +1,0 @@
-C:/cygwin64/home/Anton/Game_of_life/cmake-build-debug/CMakeFiles/Game_of_life.dir
-C:/cygwin64/home/Anton/Game_of_life/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/cygwin64/home/Anton/Game_of_life/cmake-build-debug/CMakeFiles/rebuild_cache.dir
